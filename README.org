@@ -1,0 +1,9 @@
+#+title: PyTorch Tutorial
+#+author: Andrey Pudov
+#+date: <2023-05-26 Fri>
+
+| Title                              |
+|------------------------------------|
+| [[./01_tensor_basics.py][Tensor Basics]]                      |
+| [[./02_gradient_calculation.py][Gradient Calculation with Autograd]] |
+| [[./03_backpropagation.py][Backpropagation]]                    |
