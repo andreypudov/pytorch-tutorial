@@ -1,8 +1,8 @@
 # Softmax
 #
-#        e^yi
-# S(yi) =-----
-#        Σe^yi
+#         e^yi
+# S(yi) = -----
+#         Σe^yj
 #
 # output to [0, 1]
 
