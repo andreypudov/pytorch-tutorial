@@ -39,7 +39,7 @@ for epoch in range(num_epochs):
     optimizer.zero_grad()
 
     if (epoch + 1) % 10 == 0:
-        print(f'epoch: {epoch - 1}, loss = {loss.item():.4f}')
+        print(f'epoch: {epoch + 1}, loss = {loss.item():.4f}')
 
 # plot
 predicted = model(X).detach().numpy()

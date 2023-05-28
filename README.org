@@ -11,3 +11,4 @@
 | [[./05_gradient_descent_torch_autograd.py][Gradient Descent with Autograd]]                     |
 | [[./06_gradient_descent_torch_autograd_backpropagation.py][Gradient Descent with Autograd and Backpropagation]] |
 | [[./07_linear_regression.py][Linear Regression]]                                  |
+| [[./08_logistic_regression.py][Logistic Regression]]                                |
