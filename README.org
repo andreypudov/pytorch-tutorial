@@ -14,3 +14,4 @@
 | [[./08_logistic_regression.py][Logistic Regression]]                                |
 | [[./09_dataset_and_dataloader.py][Dataset and DataLoader]]                             |
 | [[./10_dataset_transforms.py][Dataset Transforms]]                                 |
+| [[./11_softmax_and_cross_entropy.py][Softmax and Cross Entropy]]                          |
