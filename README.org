@@ -10,3 +10,4 @@
 | [[./04_gradient_descent_numpy.py][Gradient Descent]]                                   |
 | [[./05_gradient_descent_torch_autograd.py][Gradient Descent with Autograd]]                     |
 | [[./06_gradient_descent_torch_autograd_backpropagation.py][Gradient Descent with Autograd and Backpropagation]] |
+| [[./07_linear_regression.py][Linear Regression]]                                  |
