@@ -13,3 +13,4 @@
 | [[./07_linear_regression.py][Linear Regression]]                                  |
 | [[./08_logistic_regression.py][Logistic Regression]]                                |
 | [[./09_dataset_and_dataloader.py][Dataset and DataLoader]]                             |
+| [[./10_dataset_transforms.py][Dataset Transforms]]                                 |
