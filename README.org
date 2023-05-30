@@ -21,3 +21,4 @@
 | [[./15_convolutional_neural_network_test.py][15. Convolutional Neural Network Test]]                 |
 | [[./16_transfer_learning.py][16. Transfer Learning]]                                 |
 | [[./17_tensorboard.py][17. TensorBoard]]                                       |
+| [[./18_saving_and_loading_models.py][18. Saving and Loading Models]]                         |
