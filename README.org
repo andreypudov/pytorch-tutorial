@@ -20,4 +20,4 @@
 | [[./14_convolutional_neural_network.py][14. Convolutional Neural Network]]                      |
 | [[./15_convolutional_neural_network_test.py][15. Convolutional Neural Network Test]]                 |
 | [[./16_transfer_learning.py][16. Transfer Learning]]                                 |
-| [[./17_tensorboard.py][17. Tensorboard]]                                       |
+| [[./17_tensorboard.py][17. TensorBoard]]                                       |
