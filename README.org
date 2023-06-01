@@ -23,4 +23,4 @@
 | [[./17_tensorboard.py][17. TensorBoard]]                                          |
 | [[./18_saving_and_loading_models.py][18. Saving and Loading Models]]                            |
 | [[./deep-learning-app/app/main.py][19. Deep Learning App]]                                    |
-| [[./20_name_classification_using_recurrent_neural_network.py][20. Name classification using a Recurrent Neural Network]] |
+| [[./20_name_classification_using_recurrent_neural_network.py][20. Name Classification Using a Recurrent Neural Network]] |

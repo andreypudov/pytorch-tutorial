@@ -2,9 +2,7 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 
-from name_classification_using_recurrent_neural_network_utils import ALL_LETTERS, N_LETTERS
-from name_classification_using_recurrent_neural_network_utils import load_data, letter_to_tensor, line_to_tensor, random_training_example
-
+utils = __import__('21_name_classification_using_recurrent_neural_network_utils')
 
 class RNN(nn.Module):
     # implement RNN from scratch rather than using nn.RNN
@@ -42,15 +40,15 @@ class RNN(nn.Module):
     def init_hidden(self):
         return torch.zeros(1, self.hidden_size)
 
-category_lines, all_categories = load_data()
+category_lines, all_categories = utils.load_data()
 n_categories = len(all_categories)
 # print(n_categories)
 
 n_hidden = 128
-rnn = RNN(N_LETTERS, n_hidden, n_categories)
+rnn = RNN(utils.N_LETTERS, n_hidden, n_categories)
 
 # one step
-input_tensor = letter_to_tensor('A')
+input_tensor = utils.letter_to_tensor('A')
 hidden_tensor = rnn.init_hidden()
 
 output, next_hidden = rnn(input_tensor, hidden_tensor)
@@ -58,7 +56,7 @@ output, next_hidden = rnn(input_tensor, hidden_tensor)
 #print(next_hidden.size())
 
 # whole sequence/name
-input_tensor = line_to_tensor('Albert')
+input_tensor = utils.line_to_tensor('Albert')
 hidden_tensor = rnn.init_hidden()
 
 output, next_hidden = rnn(input_tensor[0], hidden_tensor)
@@ -95,7 +93,7 @@ all_losses = []
 plot_steps, print_steps = 1000, 5000
 n_iters = 100000
 for i in range(n_iters):
-    category, line, category_tensor, line_tensor = random_training_example(category_lines, all_categories)
+    category, line, category_tensor, line_tensor = utils.random_training_example(category_lines, all_categories)
 
     output, loss = train(line_tensor, category_tensor)
     current_loss += loss
@@ -117,7 +115,7 @@ plt.show()
 def predict(input_line):
     print(f"\n> {input_line}")
     with torch.no_grad():
-        line_tensor = line_to_tensor(input_line)
+        line_tensor = utils.line_to_tensor(input_line)
 
         hidden = rnn.init_hidden()
 
