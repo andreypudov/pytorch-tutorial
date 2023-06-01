@@ -2,25 +2,26 @@
 #+author: Andrey Pudov
 #+date: <2023-05-26 Fri>
 
-| Title                                                    |
-|----------------------------------------------------------|
-| [[./01_tensor_basics.py][1. Tensor Basics]]                                         |
-| [[./02_gradient_calculation.py][2. Gradient Calculation with Autograd]]                    |
-| [[./03_backpropagation.py][3. Backpropagation]]                                       |
-| [[./04_gradient_descent_numpy.py][4. Gradient Descent]]                                      |
-| [[./05_gradient_descent_torch_autograd.py][5. Gradient Descent with Autograd]]                        |
-| [[./06_gradient_descent_torch_autograd_backpropagation.py][6. Gradient Descent with Autograd and Backpropagation]]    |
-| [[./07_linear_regression.py][7. Linear Regression]]                                     |
-| [[./08_logistic_regression.py][8. Logistic Regression]]                                   |
-| [[./09_dataset_and_dataloader.py][9. Dataset and DataLoader]]                                |
-| [[./10_dataset_transforms.py][10. Dataset Transforms]]                                   |
-| [[./11_softmax_and_cross_entropy.py][11. Softmax and Cross Entropy]]                            |
-| [[./12_activation_functions.py][12. Activation Functions]]                                 |
-| [[./13_feed_forward_neural_network.py][13. Feed-Forward Neural Network]]                          |
-| [[./14_convolutional_neural_network.py][14. Convolutional Neural Network]]                         |
-| [[./15_convolutional_neural_network_test.py][15. Convolutional Neural Network Test]]                    |
-| [[./16_transfer_learning.py][16. Transfer Learning]]                                    |
-| [[./17_tensorboard.py][17. TensorBoard]]                                          |
-| [[./18_saving_and_loading_models.py][18. Saving and Loading Models]]                            |
-| [[./deep-learning-app/app/main.py][19. Deep Learning App]]                                    |
-| [[./20_name_classification_using_recurrent_neural_network.py][20. Name Classification Using a Recurrent Neural Network]] |
+| Lesson                                                         |
+|----------------------------------------------------------------|
+| [[./01_tensor_basics.py][1. Tensor Basics]]                                               |
+| [[./02_gradient_calculation.py][2. Gradient Calculation with Autograd]]                          |
+| [[./03_backpropagation.py][3. Backpropagation]]                                             |
+| [[./04_gradient_descent_numpy.py][4. Gradient Descent]]                                            |
+| [[./05_gradient_descent_torch_autograd.py][5. Gradient Descent with Autograd]]                              |
+| [[./06_gradient_descent_torch_autograd_backpropagation.py][6. Gradient Descent with Autograd and Backpropagation]]          |
+| [[./07_linear_regression.py][7. Linear Regression]]                                           |
+| [[./08_logistic_regression.py][8. Logistic Regression]]                                         |
+| [[./09_dataset_and_dataloader.py][9. Dataset and DataLoader]]                                      |
+| [[./10_dataset_transforms.py][10. Dataset Transforms]]                                         |
+| [[./11_softmax_and_cross_entropy.py][11. Softmax and Cross Entropy]]                                  |
+| [[./12_activation_functions.py][12. Activation Functions]]                                       |
+| [[./13_feed_forward_neural_network.py][13. Feed-Forward Neural Network]]                                |
+| [[./14_convolutional_neural_network.py][14. Convolutional Neural Network]]                               |
+| [[./15_convolutional_neural_network_test.py][15. Convolutional Neural Network Test]]                          |
+| [[./16_transfer_learning.py][16. Transfer Learning]]                                          |
+| [[./17_tensorboard.py][17. TensorBoard]]                                                |
+| [[./18_saving_and_loading_models.py][18. Saving and Loading Models]]                                  |
+| [[./deep-learning-app/app/main.py][19. Deep Learning App]]                                          |
+| [[./20_name_classification_using_recurrent_neural_network.py][20. Name Classification Using a Recurrent Neural Network]]       |
+| [[./21_name_classification_using_recurrent_neural_network_utils.py][21. Name Classification Using a Recurrent Neural Network Utils]] |
