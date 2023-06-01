@@ -7,7 +7,7 @@ import glob
 import torch
 import random
 
-# alphabet small + capital letters + " .,;'"
+# Alphabet small + capital letters + " .,;'"
 ALL_LETTERS = string.ascii_letters + " .,;'"
 N_LETTERS = len(ALL_LETTERS)
 
@@ -20,14 +20,14 @@ def unicode_to_ascii(s):
     )
 
 def load_data():
-    # Build the category_lines dictionary, a list of names per language
+    # build the category_lines dictionary, a list of names per language
     category_lines = {}
     all_categories = []
 
     def find_files(path):
         return glob.glob(path)
 
-    # Read a file and split into lines
+    # read a file and split into lines
     def read_lines(filename):
         lines = io.open(filename, encoding = 'utf-8').read().strip().split('\n')
         return [unicode_to_ascii(line) for line in lines]
@@ -40,8 +40,6 @@ def load_data():
         category_lines[category] = lines
 
     return category_lines, all_categories
-
-
 
 """
 To represent a single letter, we use a “one-hot vector” of
@@ -75,9 +73,7 @@ def line_to_tensor(line):
 
     return tensor
 
-
 def random_training_example(category_lines, all_categories):
-
     def random_choice(a):
         random_idx = random.randint(0, len(a) - 1)
         return a[random_idx]
@@ -88,8 +84,6 @@ def random_training_example(category_lines, all_categories):
     line_tensor = line_to_tensor(line)
 
     return category, line, category_tensor, line_tensor
-
-
 
 if __name__ == '__main__':
     print(ALL_LETTERS)

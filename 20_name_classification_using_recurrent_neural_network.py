@@ -63,7 +63,6 @@ output, next_hidden = rnn(input_tensor[0], hidden_tensor)
 #print(output.size())
 #print(next_hidden.size())
 
-#
 def category_from_output(output):
     category_idx = torch.argmax(output).item()
     return all_categories[category_idx]
@@ -107,7 +106,6 @@ for i in range(n_iters):
         correct = 'CORRECT' if guess == category else f'WRONG ({category})'
         print(f'{i + 1} {(i + 1) / n_iters * 100} {loss:.4f} {line} / {guess} {correct}')
 
-
 plt.figure()
 plt.plot(all_losses)
 plt.show()
@@ -124,7 +122,6 @@ def predict(input_line):
 
         guess = category_from_output(output)
         print(guess)
-
 
 while True:
     sentence = input("Input:")
