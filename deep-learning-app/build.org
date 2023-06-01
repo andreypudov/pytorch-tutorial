@@ -1,0 +1,31 @@
+#+title: Build
+#+author: Andrey Pudov
+#+date: <2023-06-01 Thu>
+
+#+begin_src sh
+mkdir deep-learning-app
+cd deep-learning-app
+
+python3 -m venv venv
+source ./venv/bin/activate
+pip3 install Flask
+pip3 install torch torchvision
+pip3 install requests
+pip3 install gunicorn
+
+mkdir app
+cd app
+export FLASK_APP=main.py
+export FLASK_ENV=development
+flask run
+
+cd ../model
+python3 feed_forward_neural_network.py
+mv mnist_ffnn.pt ../app
+
+cd ../app
+flask run
+
+cd ../test
+python3 test
+#+end_src

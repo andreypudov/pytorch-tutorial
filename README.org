@@ -22,3 +22,4 @@
 | [[./16_transfer_learning.py][16. Transfer Learning]]                                 |
 | [[./17_tensorboard.py][17. TensorBoard]]                                       |
 | [[./18_saving_and_loading_models.py][18. Saving and Loading Models]]                         |
+| [[./deep-learning-app/app/main.py][19. Deep Learning App]]                                 |
