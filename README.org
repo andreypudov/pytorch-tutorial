@@ -28,4 +28,4 @@
 | [[./22_recurrent_neural_network.py][22. Recurrent Neural Network]]                                   |
 | [[./23_pytorch_lightning.py][23. PyTorch Lightning]]                                          |
 | [[./24_adjust_the_learning_rate.py][24. Adjust the Learning Rate]]                                   |
-| [[./25_adjust_the_learning_rate_multiplicative_lr.py][25. Adjust the Learning Rate [Multiplicative LR]]]               |
+| [[./25_adjust_the_learning_rate_multiplicative_lr.py][25. Adjust the Learning Rate (Multiplicative LR)]]               |
