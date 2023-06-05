@@ -25,3 +25,4 @@
 | [[./deep-learning-app/app/main.py][19. Deep Learning App]]                                          |
 | [[./20_name_classification_using_recurrent_neural_network.py][20. Name Classification Using a Recurrent Neural Network]]       |
 | [[./21_name_classification_using_recurrent_neural_network_utils.py][21. Name Classification Using a Recurrent Neural Network Utils]] |
+| [[./22_recurrent_neural_network.py][22. Recurrent Neural Network]]                                   |
